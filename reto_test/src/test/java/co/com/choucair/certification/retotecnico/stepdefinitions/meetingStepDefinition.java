@@ -27,9 +27,9 @@ public class meetingStepDefinition {
                                 .withTheNumber( "000000000000"),
                         FillDateAndTimeInfoMeetingForm
                                 .forTheDateAndTimeOfAMeeting()
-                                .StartedOnDate("01/10/2023")
+                                .startedOnDate("01/10/2023")
                                 .finishedOnDate("01/10/2023")
-                                .StartedOnTime("09:00")
+                                .startedOnTime("09:00")
                                 .finishedOnTime("09:30"),
                         FillAdditionalInfoMeetingForm
                                 .forTheAdditionalInfoOfAMeeting()

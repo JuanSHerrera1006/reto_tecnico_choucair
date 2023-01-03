@@ -9,7 +9,7 @@ public class MeetingDateAndTimeInfoFormBuilder {
     private String startTime;
 
 
-    public MeetingDateAndTimeInfoFormBuilder StartedOnDate(String startDate) {
+    public MeetingDateAndTimeInfoFormBuilder startedOnDate(String startDate) {
         this.startDate = startDate;
         return this;
     }
@@ -19,7 +19,7 @@ public class MeetingDateAndTimeInfoFormBuilder {
         return this;
     }
 
-    public MeetingDateAndTimeInfoFormBuilder StartedOnTime(String startTime) {
+    public MeetingDateAndTimeInfoFormBuilder startedOnTime(String startTime) {
         this.startTime = startTime;
         return this;
     }
